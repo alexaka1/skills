@@ -1,6 +1,6 @@
 # Skills
 
-A collection of [Cursor agent skills](https://cursor.com/docs/agent/skills) for common development workflows.
+A collection of agent skills for common development workflows.
 
 ## Available Skills
 
@@ -10,4 +10,4 @@ A collection of [Cursor agent skills](https://cursor.com/docs/agent/skills) for 
 
 ## Usage
 
-Skills live under `.agents/skills/` and are picked up automatically by Cursor agents when relevant to a task.
+Skills live under `.agents/skills/` and are picked up automatically by agents when relevant to a task.
