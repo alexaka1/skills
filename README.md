@@ -6,6 +6,9 @@ A collection of agent skills for common development workflows.
 
 | Skill | Description |
 |-------|-------------|
+| [codex-computer-use](.agents/skills/codex-computer-use/SKILL.md) | Delegate local app verification and GUI interaction to Codex CLI |
+| [codex-implementation](.agents/skills/codex-implementation/SKILL.md) | Delegate scoped code changes to Codex CLI, then review and verify the result |
+| [codex-review](.agents/skills/codex-review/SKILL.md) | Ask Codex CLI for an independent code review |
 | [file-based-csharp](.agents/skills/file-based-csharp/SKILL.md) | Create, run, and publish single-file C# programs without project files (.NET 10+) |
 
 ## Usage

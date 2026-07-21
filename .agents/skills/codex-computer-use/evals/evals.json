@@ -1,0 +1,42 @@
+{
+  "skill_name": "codex-computer-use",
+  "evals": [
+    {
+      "id": 0,
+      "prompt": "open textedit and type up a short haiku about mondays. don't save it, I just want to see it on screen",
+      "expected_output": "Claude delegates to codex exec with a computer-use brief targeting TextEdit; a TextEdit window ends up open with a haiku typed in it, unsaved; Claude reports back what was typed.",
+      "files": []
+    },
+    {
+      "id": 1,
+      "prompt": "can you check what tabs I have open in brave right now? just list their titles",
+      "expected_output": "Claude delegates a read-only computer-use task to codex targeting Brave Browser and reports back the list of open tab titles without clicking or changing anything.",
+      "files": [],
+      "assertions": [
+        "Reports the actual list of open Brave tab titles",
+        "Read-only: does not change, close, or navigate any tabs",
+        "Picks an efficient direct method instead of slow GUI automation for a scriptable query",
+        "Completes without errors"
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "use codex to verify the Calculator app works: compute 12*34 in it and tell me exactly what the display shows",
+      "expected_output": "Claude runs codex exec with a computer-use brief for Calculator; codex clicks/types 12*34, and Claude reports the exact displayed result (408).",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "use codex to look at the frontmost tab in brave and describe what's actually visible on the page right now",
+      "expected_output": "Claude runs a single codex exec with the skill-specified flags (-m gpt-5.6-sol, low reasoning) and an outcome-oriented computer-use brief; Codex visually reads the page and Claude relays a verifiable description.",
+      "files": [],
+      "assertions": [
+        "Delegates the task to Codex CLI computer use",
+        "Pins model to gpt-5.6-sol with low reasoning effort by default",
+        "First codex invocation succeeds (no invalid flags or retries)",
+        "Brief describes the outcome and lets Codex decide how to see the screen (no micromanaged tool recipe)",
+        "Accurately describes actual visible page content with verifiable specifics"
+      ]
+    }
+  ]
+}
