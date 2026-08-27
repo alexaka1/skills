@@ -1,17 +1,41 @@
-# Skills
+# Agent Skills
 
-A collection of agent skills for common development workflows.
+A [Cursor plugin](https://cursor.com/docs/plugins.md) that packages agent skills for common development workflows.
 
-## Available Skills
+This repo follows the [plugin-template](https://github.com/cursor/plugin-template) **single-plugin** layout: plugin contents live at the repository root, with one `.cursor-plugin/plugin.json` and no `.cursor-plugin/marketplace.json`.
+
+## Included
 
 | Skill | Description |
 |-------|-------------|
-| [codex-computer-use](.agents/skills/codex-computer-use/SKILL.md) | Delegate local app verification and GUI interaction to Codex CLI |
-| [codex-implementation](.agents/skills/codex-implementation/SKILL.md) | Delegate scoped code changes to Codex CLI, then review and verify the result |
-| [codex-review](.agents/skills/codex-review/SKILL.md) | Ask Codex CLI for an independent code review |
-| [dotnet-build-sarif](.agents/skills/dotnet-build-sarif/SKILL.md) | Collect compiler and analyzer findings as SARIF 2.1 from `dotnet build` via ErrorLog |
-| [file-based-csharp](.agents/skills/file-based-csharp/SKILL.md) | Create, run, and publish single-file C# programs without project files (.NET 10+) |
+| [codex-computer-use](skills/codex-computer-use/SKILL.md) | Delegate local app verification and GUI interaction to Codex CLI |
+| [codex-implementation](skills/codex-implementation/SKILL.md) | Delegate scoped code changes to Codex CLI, then review and verify the result |
+| [codex-review](skills/codex-review/SKILL.md) | Ask Codex CLI for an independent code review |
+| [dotnet-build-sarif](skills/dotnet-build-sarif/SKILL.md) | Collect compiler and analyzer findings as SARIF 2.1 from `dotnet build` via ErrorLog |
+| [file-based-csharp](skills/file-based-csharp/SKILL.md) | Create, run, and publish single-file C# programs without project files (.NET 10+) |
 
-## Usage
+## Install locally
 
-Skills live under `.agents/skills/` and are picked up automatically by agents when relevant to a task.
+```bash
+ln -s /absolute/path/to/skills ~/.cursor/plugins/local/alexaka1-skills
+```
+
+Reload Cursor (**Developer: Reload Window**) and confirm the skills appear under **Customize**.
+
+On Teams/Enterprise, admins must enable **Allow Local Plugin Imports**.
+
+## Marketplace
+
+Submit the repository at [cursor.com/marketplace/publish](https://cursor.com/marketplace/publish).
+
+`.agents/skills` is a symlink to `skills/`, so agents in this checkout still load these as project skills.
+
+## Validate
+
+```bash
+node scripts/validate-template.mjs
+```
+
+## License
+
+[MIT](LICENSE)

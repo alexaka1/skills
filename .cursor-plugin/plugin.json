@@ -1,0 +1,13 @@
+{
+  "name": "alexaka1-skills",
+  "displayName": "Agent Skills",
+  "version": "0.1.0",
+  "description": "Agent skills for Codex CLI workflows, file-based C# programs, and collecting dotnet build diagnostics as SARIF.",
+  "author": {
+    "name": "Alex Martossy",
+    "email": "github@mail.martossy.hu"
+  },
+  "license": "MIT",
+  "keywords": ["cursor", "plugin", "skills", "codex", "csharp"],
+  "logo": "assets/logo.svg"
+}
