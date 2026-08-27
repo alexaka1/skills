@@ -24,11 +24,11 @@ Reload Cursor (**Developer: Reload Window**) and confirm the skills appear under
 
 On Teams/Enterprise, admins must enable **Allow Local Plugin Imports**.
 
+`.agents/skills` is a symlink to `skills/`, so agents in this checkout still load these as project skills.
+
 ## Marketplace
 
 Submit the repository at [cursor.com/marketplace/publish](https://cursor.com/marketplace/publish).
-
-`.agents/skills` is a symlink to `skills/`, so agents in this checkout still load these as project skills.
 
 ## Validate
 
