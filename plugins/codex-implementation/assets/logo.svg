@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title desc">
-  <title id="title">Agent Skills Logo</title>
-  <desc id="desc">Four skill tiles on a dark rounded square.</desc>
-  <rect width="128" height="128" rx="24" fill="#0B1220"/>
-  <rect x="18" y="18" width="42" height="42" rx="10" fill="#2563EB"/>
-  <rect x="68" y="18" width="42" height="42" rx="10" fill="#06B6D4"/>
-  <rect x="18" y="68" width="42" height="42" rx="10" fill="#8B5CF6"/>
-  <rect x="68" y="68" width="42" height="42" rx="10" fill="#F59E0B"/>
-</svg>
