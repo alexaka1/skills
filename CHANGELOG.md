@@ -2,4 +2,4 @@
 
 ## 0.1.0
 
-- Package this repository as a single Cursor plugin using the plugin-template layout.
+- Package each skill as its own Cursor plugin in a multi-plugin marketplace.

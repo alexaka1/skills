@@ -1,0 +1,13 @@
+{
+  "name": "codex-computer-use",
+  "displayName": "Codex Computer Use",
+  "version": "0.1.0",
+  "description": "Delegate local app verification and GUI interaction to Codex CLI.",
+  "author": {
+    "name": "Alex Martossy",
+    "email": "github@mail.martossy.hu"
+  },
+  "license": "MIT",
+  "keywords": ["cursor", "plugin", "skills", "codex", "computer-use"],
+  "logo": "assets/logo.svg"
+}

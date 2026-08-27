@@ -1,0 +1,13 @@
+{
+  "name": "dotnet-build-sarif",
+  "displayName": "Dotnet Build SARIF",
+  "version": "0.1.0",
+  "description": "Collect compiler and analyzer findings as SARIF 2.1 from dotnet build via ErrorLog.",
+  "author": {
+    "name": "Alex Martossy",
+    "email": "github@mail.martossy.hu"
+  },
+  "license": "MIT",
+  "keywords": ["cursor", "plugin", "skills", "dotnet", "sarif"],
+  "logo": "assets/logo.svg"
+}

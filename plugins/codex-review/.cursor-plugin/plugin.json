@@ -1,0 +1,13 @@
+{
+  "name": "codex-review",
+  "displayName": "Codex Review",
+  "version": "0.1.0",
+  "description": "Ask Codex CLI for an independent code review.",
+  "author": {
+    "name": "Alex Martossy",
+    "email": "github@mail.martossy.hu"
+  },
+  "license": "MIT",
+  "keywords": ["cursor", "plugin", "skills", "codex", "review"],
+  "logo": "assets/logo.svg"
+}
