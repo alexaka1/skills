@@ -1,0 +1,4 @@
+interface:
+  display_name: "Upstream .NET Repro"
+  short_description: "Create minimal .NET repros and reviewed upstream issues"
+  default_prompt: "Use $upstream-dotnet-repro to isolate this .NET bug, create a minimal reproduction, and draft an upstream issue for my review."
