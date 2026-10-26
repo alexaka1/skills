@@ -11,6 +11,7 @@ A collection of agent skills for common development workflows.
 | [codex-review](skills/codex-review/SKILL.md) | Ask Codex CLI for an independent code review |
 | [dotnet-build-sarif](skills/dotnet-build-sarif/SKILL.md) | Collect compiler and analyzer findings as SARIF 2.1 from `dotnet build` via ErrorLog |
 | [file-based-csharp](skills/file-based-csharp/SKILL.md) | Create, run, and publish single-file C# programs without project files (.NET 10+) |
+| [hydration-safe-browser-values](skills/hydration-safe-browser-values/SKILL.md) | Paint time and browser-only values correctly before React hydrates, with no flicker or mismatch |
 | [upstream-dotnet-repro](skills/upstream-dotnet-repro/SKILL.md) | Create a minimal standalone .NET repro and prepare an upstream issue for user review |
 
 ## Usage
