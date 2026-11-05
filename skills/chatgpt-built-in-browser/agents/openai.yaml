@@ -1,0 +1,4 @@
+interface:
+  display_name: "ChatGPT Built-in Browser"
+  short_description: "Use only the app browser, with bounded recovery"
+  default_prompt: "Use $chatgpt-built-in-browser for this task and recover supported session initialization failures once if needed."

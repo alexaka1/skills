@@ -14,6 +14,14 @@ A collection of agent skills for common development workflows.
 | [hydration-safe-browser-values](skills/hydration-safe-browser-values/SKILL.md) | Paint time and browser-only values correctly before React hydrates, with no flicker or mismatch |
 | [upstream-dotnet-repro](skills/upstream-dotnet-repro/SKILL.md) | Create a minimal standalone .NET repro and prepare an upstream issue for user review |
 
+## "I don't trust closed source software anymore."
+
+— [Theo Browne](https://x.com/theo/status/2040518687007056114)
+
+| Skill | Description |
+|-------|-------------|
+| [chatgpt-built-in-browser](skills/chatgpt-built-in-browser/SKILL.md) | Use the ChatGPT/Codex built-in browser and recover from unavailable-browser errors |
+
 ## Usage
 
 Skills live under `skills/` and are picked up automatically by agents when relevant to a task.
