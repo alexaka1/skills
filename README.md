@@ -21,6 +21,7 @@ A collection of agent skills for common development workflows.
 | Skill | Description |
 |-------|-------------|
 | [chatgpt-built-in-browser](skills/chatgpt-built-in-browser/SKILL.md) | Use the ChatGPT/Codex built-in browser and recover from unavailable-browser errors |
+| [windows-direct-execution](skills/windows-direct-execution/SKILL.md) | Launch Windows CLI programs directly and avoid a verified Codex PowerShell classifier false positive |
 
 ## Usage
 
